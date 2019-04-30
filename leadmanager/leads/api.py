@@ -1,13 +1,13 @@
 from leads.models import Lead
 from rest_framework import viewsets, permissions
-from .serialzers import LeadSerialzer
+from .serializers import LeadSerializer
 
 
 # Lead Viewset
 class LeadViewSet(viewsets.ModelViewSet):
-    queryet = Lead.objects.all()
+    queryset = Lead.objects.all()
     permission_classes = [
     permissions.AllowAny
     ]
 
-    serializer_class = LeadSerialzer
+    serializer_class = LeadSerializer
