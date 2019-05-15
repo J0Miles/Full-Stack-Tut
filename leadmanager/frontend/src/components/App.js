@@ -20,7 +20,7 @@ class App extends Component {
   render() {
     return (
 <Provider store={store}>
-  <AlertProvider>
+  <AlertProvider template={AlertTemplate} {...alertOptions}>
   <Fragment>
     <Header />
     <div className="container">
