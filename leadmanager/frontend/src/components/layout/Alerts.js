@@ -22,6 +22,8 @@ if (error.msg.message) alert.error(`Message: ${error.msg.message.join()}`);
   if(message !== prevProps.message) {
     if(message.deleteLead)
     alert.success(message.deleteLead);
+    if(message.addLead)
+    alert.success(message.addLead);
   }
 }
 
