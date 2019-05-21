@@ -114,11 +114,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*!***************************************************!*\
   !*** ./leadmanager/frontend/src/actions/types.js ***!
   \***************************************************/
-/*! exports provided: GET_LEADS, DELETE_LEAD, ADD_LEAD, GET_ERRORS, GET_MESSAGES, CREATE_MESSAGE */
+/*! exports provided: GET_LEADS, DELETE_LEAD, ADD_LEAD, GET_ERRORS, CREATE_MESSAGE */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"GET_LEADS\", function() { return GET_LEADS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"DELETE_LEAD\", function() { return DELETE_LEAD; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ADD_LEAD\", function() { return ADD_LEAD; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"GET_ERRORS\", function() { return GET_ERRORS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"GET_MESSAGES\", function() { return GET_MESSAGES; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"CREATE_MESSAGE\", function() { return CREATE_MESSAGE; });\nvar GET_LEADS = 'GET_LEADS';\nvar DELETE_LEAD = 'DELETE_LEAD';\nvar ADD_LEAD = 'ADD_LEAD';\nvar GET_ERRORS = 'GET_ERRORS';\nvar GET_MESSAGES = 'GET_MESSAGES';\nvar CREATE_MESSAGE = 'CREATE_MESSAGE';\n\n//# sourceURL=webpack:///./leadmanager/frontend/src/actions/types.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"GET_LEADS\", function() { return GET_LEADS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"DELETE_LEAD\", function() { return DELETE_LEAD; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"ADD_LEAD\", function() { return ADD_LEAD; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"GET_ERRORS\", function() { return GET_ERRORS; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"CREATE_MESSAGE\", function() { return CREATE_MESSAGE; });\nvar GET_LEADS = 'GET_LEADS';\nvar DELETE_LEAD = 'DELETE_LEAD';\nvar ADD_LEAD = 'ADD_LEAD';\nvar GET_ERRORS = 'GET_ERRORS';\nvar CREATE_MESSAGE = 'CREATE_MESSAGE';\n\n//# sourceURL=webpack:///./leadmanager/frontend/src/actions/types.js?");
 
 /***/ }),
 
@@ -250,7 +250,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _act
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _actions_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../actions/types */ \"./leadmanager/frontend/src/actions/types.js\");\n\nvar intitalState = {};\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : intitalState;\n  var action = arguments.length > 1 ? arguments[1] : undefined;\n\n  switch (action.type) {\n    case _actions_types__WEBPACK_IMPORTED_MODULE_0__[\"GET_MESSAGES\"]:\n      return action.payload;\n\n    case _actions_types__WEBPACK_IMPORTED_MODULE_0__[\"CREATE_MESSAGE\"]:\n      return state = action.payload;\n\n    default:\n      return state;\n  }\n});\n\n//# sourceURL=webpack:///./leadmanager/frontend/src/reducers/messages.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _actions_types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../actions/types */ \"./leadmanager/frontend/src/actions/types.js\");\n\nvar intitalState = {};\n/* harmony default export */ __webpack_exports__[\"default\"] = (function () {\n  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : intitalState;\n  var action = arguments.length > 1 ? arguments[1] : undefined;\n\n  switch (action.type) {\n    case _actions_types__WEBPACK_IMPORTED_MODULE_0__[\"CREATE_MESSAGE\"]:\n      return state = action.payload;\n\n    default:\n      return state;\n  }\n});\n\n//# sourceURL=webpack:///./leadmanager/frontend/src/reducers/messages.js?");
 
 /***/ }),
 
