@@ -102,11 +102,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /*!******************************************************!*\
   !*** ./leadmanager/frontend/src/actions/messages.js ***!
   \******************************************************/
-/*! exports provided: createMessage */
+/*! exports provided: createMessage, returnErrors */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"createMessage\", function() { return createMessage; });\n/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./types */ \"./leadmanager/frontend/src/actions/types.js\");\n // CREATE MESSAGE\n\nvar createMessage = function createMessage(msg) {\n  return {\n    type: _types__WEBPACK_IMPORTED_MODULE_0__[\"CREATE_MESSAGE\"],\n    payload: msg\n  };\n};\n\n//# sourceURL=webpack:///./leadmanager/frontend/src/actions/messages.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"createMessage\", function() { return createMessage; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"returnErrors\", function() { return returnErrors; });\n/* harmony import */ var _types__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./types */ \"./leadmanager/frontend/src/actions/types.js\");\n // CREATE MESSAGE\n\nvar createMessage = function createMessage(msg) {\n  return {\n    type: _types__WEBPACK_IMPORTED_MODULE_0__[\"CREATE_MESSAGE\"],\n    payload: msg\n  };\n}; // RETURN ERRORS\n\nvar returnErrors = function returnErrors(msg, status) {\n  return {\n    type: GET_ERRORS,\n    payload: {\n      msg: msg,\n      status: status\n    }\n  };\n};\n\n//# sourceURL=webpack:///./leadmanager/frontend/src/actions/messages.js?");
 
 /***/ }),
 
